@@ -49,7 +49,7 @@ If you find our paper and code useful for your research, please consider citing
 @article{sun2023mask,
     author  = {Sun, Tao and Pang, Lu and Chen, Chao and Ling, Haibin},
     title   = {Mask and Restore: Blind Backdoor Defense at Test Time with Masked Autoencoder},
-    journal = {arXiv preprint arXiv:2303.15564 xx},
+    journal = {arXiv preprint arXiv:2303.15564},
     year    = {2023}
 }
 ```
