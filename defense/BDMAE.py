@@ -178,7 +178,7 @@ class BDMAEmodel(nn.Module):
             all_I.append(I)
 
 
-        scores_i = [1 - F.interpolate(I.unsqueeze(1), size=(H, W), mode='nearest').squeeze().numpy() for I in all_I]
+        scores_i = [1 - F.interpolate(I.unsqueeze(1), size=(H, W), mode='nearest').squeeze(1).numpy() for I in all_I]
         scores_i = np.stack(scores_i).mean(0)
         scores_l = diff_pred_cnt / (rp_init_in * rp_init_out)
 
