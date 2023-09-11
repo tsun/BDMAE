@@ -35,6 +35,16 @@ bash run/run_attack.sh
 bash run/run_defense.sh
 ```
 
+### Supported Test-time Defense Methods
+| Method        |                               Paper                                |         Implementation          |
+|---------------|:------------------------------------------------------------------:|:-------------------------------:|
+| Blur          |                                 -                                  | To be added | 
+| ShrinkPad     |  [ICLR RobustML workshop 2021](https://arxiv.org/abs/2104.02361)   | To be added | 
+| PatchCleanser | [USENIX Security Symposium 2022](https://arxiv.org/abs/2108.09135) | To be added | 
+| Februus       |           [ACSAC 2020](https://arxiv.org/abs/1908.03369)           |  [Februus](defense/Februus.py)  | 
+| DiffPure      |           [ICML 2022](https://arxiv.org/abs/2205.07460)            |           To be added           | 
+| BDMAE (ours)  |           [arXiv 2023](https://arxiv.org/abs/2303.15564)           |    [BDMAE](defense/BDMAE.py)    |
+
 ## Acknowledgements
 Backdoor attack is adapted from [BackdoorBench](https://github.com/SCLBD/BackdoorBench).
 
